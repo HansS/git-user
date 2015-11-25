@@ -78,3 +78,5 @@ reocording will go
 ###Github and Remotes
 
 ###Intermediate Usage
+
+###Git Diff Tool
