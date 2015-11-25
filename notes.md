@@ -67,6 +67,12 @@ recording head of a tape recorder positioned at the head where the new
 reocording will go
 
 ###Branch
+* git branch
+* git branch branchename
+* git checkout branchename
+* git checkout -b bug-fix-01 (fast create a branch)
+
+###Merge
 
 ###Master
 
