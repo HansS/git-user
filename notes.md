@@ -8,4 +8,8 @@ git config  --global user.password
 git config -l (shows all config entries)
 git config --global color.ui true	
 
+##Create local Repository
+creates a .git subdirectory in directory where git init was issued
+
+
 
