@@ -41,7 +41,7 @@ commit.
 The way how Git stores "snapshots of changes". It is a set of changes
 identified with a sha hash. Every Commit points to its parent commit.
 A merge (merge of two branches has 2 parents)
-![Git Commit](/img/git-commit-diagram.png)
+![Git Commit](img/git-commit-diagram.png)
 
 ###Git Database
 * files (Blob: git stores file content in a blob)
@@ -51,8 +51,8 @@ A merge (merge of two branches has 2 parents)
 * SHA-1 Hash
 * Branches
 * HEAD
-* Ancestor References (Parent, Grand-Parent, Grand-Grand-Parent,...)
-* ![Git References Diagram](/img/git-references.png)
+* Ancestor References (Parent:HEAD~, Grand-Parent:HEAD~2, Grand-Grand-Parent:HEAD~3,...)
+* ![Git References Diagram](img/git-references.png)
 
 ###Git Object Types Blob and Tree
 * Blob (identified by a sha hash)
