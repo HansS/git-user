@@ -80,3 +80,7 @@ reocording will go
 ###Intermediate Usage
 
 ###Git Diff Tool
+* git diff notes.md
+* git diff HEAD notes.md (see differences between current and last commit)
+* git diff (use this command before committing to see what you changed) 
+###Git History with Git log
