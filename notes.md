@@ -66,7 +66,13 @@ Git Reference to the head of branch of your last commit. It is like the
 recording head of a tape recorder positioned at the head where the new
 reocording will go
 
-###Branch
+###Creating Branch
+Create a branch to work on code beside the master branch.
+Default you work on master branch.
+* git branch (shows a list of branches)
+* git branch branchname (create branch with branchname)
+* git branch branchname (change to branch branchname)
+
 
 ###Master
 
@@ -84,3 +90,8 @@ reocording will go
 * git diff HEAD notes.md (see differences between current and last commit)
 * git diff (use this command before committing to see what you changed) 
 ###Git History with Git log
+* git log
+* git log --oneline
+* git log --pretty=="%h, %cn, %cr"
+* git log --oneline --graph
+* gitk (show graphical user interface of commits)
